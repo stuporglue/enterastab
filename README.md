@@ -1,15 +1,11 @@
-=== EnterAsTab ===
-==========
-
+# EnterAsTab #
 Treat enter in forms as tab, unless the element is a submit element. 
-
-== EnterAsTab ==
 
 Copyright 2013 Michael Moore <stuporglue@gmail.com>
 
 License: GPL.v2
 
-== ABOUT ==
+## ABOUT ##
 
 EnterAsTab changes the ENTER/RETURN functionality in forms to be more friendly for mobile devices. 
 
@@ -25,7 +21,7 @@ submitted.
 This code is somewhat dumb, it doesn't take into account if the element is actually
 visible or not, though we do check for attribute type='hidden'
 
-== USAGE ==
+## USAGE ##
 
 Set the onkeypress event to the enterAsTab function. 
 
@@ -33,7 +29,7 @@ You can run applyEnterAsTab() to apply it to all input elements or
 
 you can use jQuery/zepto/whatever to apply it to specific elements
 
-== EXAMPLE ==
+## EXAMPLE ##
 
     applyEnterAsTab(); // all input elements are now set to use EnterAsTab
 
